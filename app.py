@@ -9,7 +9,7 @@ from typing import Optional
 st.set_page_config(page_title="Drive File Uploader", page_icon="📤", layout="centered")
 
 # Constants - REPLACE WITH YOUR N8N WEBHOOK URL
-N8N_WEBHOOK_URL = "https://n8n-dash.wiz2biz.ai/webhook-test/streamlit-drive-upload"
+N8N_WEBHOOK_URL = "https://your-n8n-instance/webhook-test/streamlit-drive-upload"
 
 def upload_file_to_drive(file, folder_id: Optional[str] = None) -> dict:
     """
